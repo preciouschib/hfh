@@ -1,0 +1,35 @@
+body 
+
+.customContainer {
+    background-color: lightgray;
+    margin-top: 50px;
+    margin-bottom: 00px;
+    text-align: center;
+    color: white;
+}
+
+.meimg {
+    border-radius: 50%;
+    border-width: 4px;
+    width: 140px;
+    height: auto;
+    transform: translateY(-30px);
+    vertical-align: middle;
+    border: groove;
+    border-color: black;
+    border-width: 2px;
+}
+
+
+
+/* end */
+footer {
+    padding: 10px;
+    background: burlywood;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 75px;
+    text-align: center;
+    color: white;
+  }

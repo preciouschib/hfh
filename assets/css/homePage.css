@@ -1,0 +1,36 @@
+#backpic {
+    background-color: white;
+    background-image: url("../images/texture-15.JPG");
+    background-size: cover;
+}
+
+#title {
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-stretch: normal;
+    color: white;  
+    text-decoration: underline; 
+    text-decoration-style: solid;
+    padding: 10px;
+    font-size: 30px; 
+    margin-top: 20px;  
+}
+
+#PC {
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+
+#secondbox {
+    width: 200px;
+    height: 100px;
+    background-color: tan;
+    border: dashed; 
+    border-color: black;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
