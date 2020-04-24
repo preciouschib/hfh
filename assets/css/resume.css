@@ -1,9 +1,11 @@
-body 
+/* body */
+
 
 .customContainer {
     background-color: lightgray;
-    margin-top: 50px;
-    margin-bottom: 00px;
+    height: 700px;
+    margin-top: 30px;
+    margin-bottom: 50px;
     text-align: center;
     color: white;
 }
@@ -13,14 +15,80 @@ body
     border-width: 4px;
     width: 140px;
     height: auto;
-    transform: translateY(-30px);
+    transform: translateY(-50px);
     vertical-align: middle;
     border: groove;
     border-color: black;
     border-width: 2px;
 }
 
+#purpbox {
+    width: 1140px;
+    height: 40px;
+    background-color: rgb(198, 182, 223);
+    transform: translateY(100px);
+    align-self: center;
+    margin-left: 150px;
+}
 
+#blkline {
+    width: 1225px;
+    height: 1.5px;
+    background-color: rgb(0, 0, 0);
+    transform: translateY(80px);
+    align-self: center;
+    margin-left: 110px;
+    vertical-align: middle;
+}
+
+/* contact */
+.subt {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contactinfo {
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+/* columns */
+#left {
+    width: 25%;
+    padding: 5px;
+    height: 400px;
+    color: #fff;
+    background: red;
+    float: left;
+    text-align: center;
+  }
+  #middle {
+    width: 25%;
+    padding: 5px;
+    height: 400px;
+    color: white;
+    background: lightseagreen;
+    float: left;
+    text-align: center;
+  }
+  .pimg { 
+    border-radius: 50%;
+    border-width: 2px;
+    border-color:white;
+    border-style: solid;
+    margin:5px;
+  }
+
+  #right {
+    padding: 10px;
+    background: #666;
+    height: 400px;
+    color: white;
+    text-align: center;
 
 /* end */
 footer {
@@ -29,7 +97,7 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-    height: 75px;
+    height: 70px;
     text-align: center;
     color: white;
-  }
+}
