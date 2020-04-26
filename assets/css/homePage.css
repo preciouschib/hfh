@@ -25,12 +25,13 @@
 
 #secondbox {
     width: 200px;
-    height: 100px;
+    height: 40px;
     background-color: tan;
     border: dashed; 
     border-color: black;
     padding: 5px;
     margin: 10px;
     text-align: center;
+    border-width: 2px;
 }
 

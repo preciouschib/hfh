@@ -13,7 +13,7 @@
     margin-right: 20px;
 }
 .navBG li > a:hover {
-    color: darkgreen;
+    color: rgb(110, 70, 136);
     text-decoration: dashed;
     font-weight: bold;
     transform: scale(1);
