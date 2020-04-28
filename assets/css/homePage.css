@@ -26,7 +26,7 @@
 #secondbox {
     width: 200px;
     height: 40px;
-    background-color: tan;
+    background-color:transparent;
     border: dashed; 
     border-color: black;
     padding: 5px;
