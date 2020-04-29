@@ -2,45 +2,69 @@
 
 .customContainer {
     background-color: lightgray;
-    height: 700px;
+    height: 800px;
     margin-top: 30px;
     margin-bottom: 10px;
     text-align: center;
     color: white;
 }
+/* top section */
 .meimg {
     border-radius: 50%;
-    width: 140px;
+    width: 135px;
     height: auto;
-    transform: translateY(-50px);
+    transform: translateY(-15px);
     vertical-align: middle;
     border: groove;
     border-color: black;
     border-width: 2px;
+    padding: 5px
 }
 #purpbox {
-    width: 1290px;
     height: 30px;
     background-color: rgb(198, 182, 223);
-    transform: translateY(90px);
-    align-self: center;
-    margin-left: 150px;
+    transform: translateY(70px);
+   
 }
 #blkline {
-    width: 1370px;
     height: 1.5px;
     background-color: rgb(0, 0, 0);
-    transform: translateY(75px);
-    align-self: center;
-    margin-left: 110px;
-    vertical-align: middle;
+    transform: translateY(15px);
 }
 .col-12 {
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 15px;
-    margin-top: 1px;
 }
+/* boxmiddlesection */
+.midsection {
+    margin-top: ;
+    transform: translateY(-80px);
+    
+}
+.EandAsect{
+    text-align: left;
+    padding: 10px;
+    height: 300px;
+}
+.fasfa-medal{
+    height: 10px;
+    width: auto;
+}
+  .introsect {
+      text-align: center;
+      padding: 10px;
+      height: 200px;
+      margin-top: 70px;
+  }
+  .workesect {
+    text-align: right;
+    padding: 10px;
+    height: 300px;
+  }
 
+.ps{
+    text-align: right;
+}
 .subt {
     color: white;
     font-size: 15px;
@@ -66,49 +90,27 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
 }
-.TY {
-    font-size: 20px;
-    color: rgb(198, 182, 223);
-    text-align: center;
-    margin-bottom: 60px;
-}
+
 /* columns */
 .textc {
     margin-left: 2px;
     margin-right: 2px;
     margin-top: -110px;
 }
-#left {
-    width: 38%;
-    padding: 10px;
-    height: 600px;
-    color: #fff;
-    background:transparent;
-    float: left;
-    text-align: left;
-  }
-  #middle {
-    width: 25%;
-    padding: 10px;
-    height: 600px;
-    color: white;
-    background: transparent;
-    float: left;
-    text-align: center;
-  }
-  #right {
-    padding: 10px;
-    background:transparent;
-    height: 600px;
-    color: white;
-    text-align: right;
-  }
+
  
   .links {
       color:rgb(198, 182, 223);
   }
 
 /* end */
+  .TY {
+    font-size: 20px;
+    color: rgb(198, 182, 223);
+    text-align: center;
+    margin-bottom: 60px;
+}
+
 footer {
     padding: 10px;
     background: burlywood;
