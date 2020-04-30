@@ -60,8 +60,12 @@
     text-align: left;
     padding: 10px; 
 }
+.ccsect {
+    margin-top: 200px;
+}
 .techesct{
-    text-align: left;
+    margin-top: 80px;
+    text-align: right;
     padding: 10px;
 }
 .rowWEsect{
