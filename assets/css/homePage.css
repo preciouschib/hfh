@@ -1,28 +1,50 @@
-.customContainer 
-#backpic {
-    background-color: white;
-    background-image: url("../images/texture-15.JPG");
-    background-size: cover;
+/* her */
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-#title {
-    text-align: center;
-    font-family: 'Times New Roman';
-    font-stretch: normal;
-    color: white;  
-    text-decoration: underline; 
-    text-decoration-style: solid;
-    padding: 10px;
-    font-size: 30px; 
-    margin-top: 20px;  
+.nonProfitContainer {
+    margin: 50px 0;
+}
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.logo {
+    width: 15%;
+    height: auto;
 }
 
-#PC {
-    color: white;
-    text-align: center;
-    font-family: 'Times New Roman';
-    font-size: 20px;
+img {
+    vertical-align: middle;
+    border-style: none;
 }
+@media (min-width: 768px)
+.navbar-expand-md {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+.aboutDiv {
+    height: 500px;
+    background-color: orange;
+    margin: 20px
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+/* end her */
 
 #secondbox {
     width: 200px;

@@ -4,10 +4,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Portfolio Page</title>
-
+     <!-- favicon -->
+     <link rel="icon" href="favicon.ico" type="image/x-icon" />
+     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    
+     <title>Portfolio Page</title>
     <link rel="stylesheet" href="assets/css/resume.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/defaultStyle.css" type="text/css">
     <link rel="stylesheet" href="assets/css/homePage.css" type="text/css">
     <!-- bootstrap stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -19,265 +23,85 @@
 
 <body>
     <!-- nav -->
-    <nav class="navbar navbar-expand-lg rounded navBG">
-        <a class="navbar-brand" href="index.html">
-            <b>H4H</b>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
-            aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+   <div class="container-fluid hfhContainer">
+       <img src="assets/images/" class="logo" >
+   </div>
+
+<!-- hers -->
+<div class="container-fluid nonProfitContainer">
+    <div class="logoContainer">
+        <img src="assets/images/logo.png" class="logo" width="400" height="auto">
+    </div>
+
+    <!-- navigation  -->
+    <nav class="navbar navbar-expand-md nonProfitNav">
+        <!-- hamburger icon -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nonProfitNav" aria-controls="nonProfitNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon">
                 <i class="fas fa-bars" aria-hidden="true"></i>
             </span>
+            
         </button>
-        <div class="collapse navbar-collapse" id="navbarsExample09">
-            <ul class="navbar-nav mr-auto">
+
+        <div class="collapse navbar-collapse" id="nonProfitNav">
+            <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link smoothScroll" href="#aboutSection">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="preciousResume.html">Resume</a>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">Contact</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="mailto: preprec19@gmail.com">Email</a>
-                        <a class="dropdown-item" href="https://github.com/preciouschib" target="_blank">Github Page</a>
-                        <a class="dropdown-item" href="https://preciouschib.github.io" target="_blank">PC Website</a>
-                    </div>
+                    <a class="nav-link smoothScroll" href="#siteMapSection">Sitemap</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link smoothScroll" href="#styleGuideSection">Style Guide</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">User Persona</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Wireframe</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Prototypes</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-md-0">
-                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-            </form>
         </div>
     </nav>
 
-                <!-- columns -->
-                <section class="textc">
-                    <!-- Left COL -->
-                    <div id="left">
-                        <h1 class="maint"><i class="fas fa-user-graduate"></i> EDUCATION</h1>
-                        <h2 class="subt"> California State Polytechnic University, Pomona</h2>
-                        <p>August 2019- present
-                            <br>Bachelors Degree in Visual Communication
-                            <h2 class="subt"> Los Angeles Harbor Community College (3.9 gpa)</h2>
-                            2017-2019
-                            <br>Associate Degree in Studio Arts
-                            <br>Associate Degree in Liberal Arts and Sciences: Arts and Humanities</p>
 
-                        <h1 class="maint"><i class="fas fa-medal"></i> AWARDS</h1>
-                        <P>2017 -2019:President’s Honors (3.5 or higher)
-                            <br>2017-2019: Ronald Reagan Student Leader Award
-                            <br>2020: Honors in Academic Achievement</P>
-                           <br>
-        <!-- inner left -->
-            <h4 class="maint1">PERSONAL SKILLS</h4>
-            <div class="row">
-                <div class="col-6">
-                    <p><br>Team Player
-                        <br> Public Speaking
-                        <br>Quick Learner
-                        <br>Time Management
-                        <br>Event Planning</p>
-                </div>
-                <div class="col-6">
-                    <P> <br>
-                        <i class="fas fa-circle"></i>
-                            <i class="fas fa-circle"></i>
-                            <i class="fas fa-circle"></i>
-                            <i class="fas fa-circle"></i>
-                            <i class="fas fa-circle"></i>
-                            <i class="fas fa-circle"></i>
-                            <i class="far fa-circle"></i>
-                            <i class="far fa-circle"></i>
-                            <br>
-                            <i class="fas fa-circle"></i>
-                            <i class="fas fa-circle"></i>
-                            <i class="fas fa-circle"></i>
-                            <i class="fas fa-circle"></i>
-                            <i class="fas fa-circle"></i>
-                            <i class="far fa-circle"></i>
-                            <i class="far fa-circle"></i>
-                            <i class="far fa-circle"></i>
-                            <br>
-                            <i class="fas fa-circle"></i>
-                            <i class="fas fa-circle"></i>
-                            <i class="fas fa-circle"></i>
-                            <i class="fas fa-circle"></i>
-                            <i class="fas fa-circle"></i>
-                            <i class="far fa-circle"></i>
-                            <i class="far fa-circle"></i>
-                            <i class="far fa-circle"></i>
-                            <br>
-                            <i class="fas fa-circle"></i>
-                            <i class="fas fa-circle"></i>
-                            <i class="fas fa-circle"></i>
-                            <i class="fas fa-circle"></i>
-                            <i class="fas fa-circle"></i>
-                            <i class="fas fa-circle"></i>
-                            <i class="fas fa-circle"></i>
-                            <i class="far fa-circle"></i>
-                            <br>
-                            <i class="fas fa-circle"></i>
-                            <i class="fas fa-circle"></i>
-                            <i class="fas fa-circle"></i>
-                            <i class="fas fa-circle"></i>
-                            <i class="fas fa-circle"></i>
-                            <i class="fas fa-circle"></i>
-                            <i class="fas fa-circle"></i>
-                            <i class="fas fa-circle"></i></P>
-                </div>
-            </div>
+    <!-- ABout section -->
+    <section id="aboutSection" data-spy="scroll" data-offset="0" data-target="siteMapSection">
+        <div class="aboutDiv">
+            <p>this is my about section</p>
+            <p>this is my about section</p>
+            <p>this is my about section</p>
+            <p>this is my about section</p>
+            <p>this is my about section</p>
+            <p>this is my about section</p>
         </div>
-                    <!-- Middle COL -->
-                    <div id="middle">
-                        <br>
-                        <br>
-                        <br>
-                        <p>PRECIOUS CHIBUEZE</p>
-                        Graphic Designer
-                        <br>
-                        Carson, CA
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <!-- contact -->
+    </section>
 
-                        <h1 class="maint">CONNECT</h1>
-                        <p>Github Page <a class="links" href="https://github.com/preciouschib">My Github</a>
-                            <br>Portfolio <a class="links" href="preciouschib.github.io">My Portfolio</a>
-                            <br><i class="fab fa-youtube"></i> Youtube <a class="links" href="https://www.youtube.com/channel/UC8KWCWI4TJT4D8nuZDvJl1w?view_as=subscriber">My Channel</a></p>
-                            <h1 class="maint"></i>DIRECT CONTACT</h1>
-                        <P><i class="fas fa-phone"></i> Number <a class="links" href="phone number">(310)-401-4234</a>
-                            <br><i class="fas fa-envelope"></i> Email <a class="links" href="mailto: preprec19@gmail.com">preprec19@gmail.com</a></P>
-                    </div>
-                    <!-- Right COL -->
-                    <div id="right">
-                        <div>
-                        <h1 class="maint"><i class="fas fa-briefcase"></i> WORK EXPERIENCE</h1>
-                        <p><h2 class="subt"> California State Polytechnic University, Pomona
-                            <br>Full Time Intern
-                            <br>Koo’s Nearest Cleaners
-                            <br>Torrance, CA
-                            <br>May-August 2018</h2>
-                            <br> Devised Marketing/ Advertising
-                            <br>methods to expand tailoring
-                            <br>and alteration services
-                            <br>Designed store layout
-                            <br>Set up and manage social media
-                            <br>platforms to drive up
-                            <br>sales and engage
-                            <br>customers</p>
-                            <br>
-                    </div>
-                    <!-- inner right box -->
-            <h4 class="maint2">Technical Computer Skills</h4>
-            <div class="row">
-                <div class="col-6.2">
-                    <p>Microsoft Office Programs
-                        <br>Video Editing
-                        <br>Photography 
-                        <br>Photoshop
-                        <br>Lightroom
-                        <br>Illustrator
-                        <br>XD</p>
-                </div>
-                <div class="col-6">
-                    <P> 
-                        <i class="far fa-circle"></i>
-                        <i class="far fa-circle"></i>
-                        <i class="far fa-circle"></i>
-                        <i class="far fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <br>
-                        <i class="far fa-circle"></i>
-                        <i class="far fa-circle"></i>
-                        <i class="far fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <br>
-                        <i class="far fa-circle"></i>
-                        <i class="far fa-circle"></i>
-                        <i class="far fa-circle"></i>
-                        <i class="far fa-circle"></i>
-                        <i class="far fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <br>
-                        <i class="far fa-circle"></i>
-                        <i class="far fa-circle"></i>
-                        <i class="far fa-circle"></i>
-                        <i class="far fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <br>
-                        <i class="far fa-circle"></i>
-                        <i class="far fa-circle"></i>
-                        <i class="far fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <br>
-                        <i class="far fa-circle"></i>
-                        <i class="far fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <br>
-                        <i class="far fa-circle"></i>
-                        <i class="far fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <i class="fas fa-circle"></i>
-                        <i class="fas fa-circle"></i></P>
-                </div>
-            </div>
+    <section id="siteMapSection" data-spy="scroll" data-offset="0" data-target="siteMapSection">
+        <div class="sitemapDiv">
+            <p>this is my sitemap section</p>
+            <p>this is my sitemap section</p>
+            <p>this is my sitemap section</p>
+            <p>this is my sitemap section</p>
+            <p>this is my sitemap section</p>
+            <p>this is my sitemap section</p>
         </div>
-        <!-- end -->
-                </section>
-            </div>
+    </section>
+
+    <section id="styleGuideSection" data-spy="scroll" data-offset="0" data-target="styleGuideSection">
+        <div class="styleGuideDiv">
+            <p>this is my styleguide section</p>
+            <p>this is my styleguide section</p>
+            <p>this is my styleguide section</p>
+            <p>this is my styleguide section</p>
+            <p>this is my styleguide section</p>
+            <p>this is my styleguide section</p>
         </div>
-    </div>
-    
-
-
-            <img id="backpic" src="assets/images/texture-15.JPG">
-            <h1 id="title">HOUSING FOR THE HELPLESS</h1>
-            <h2 id="PC">Precious Chibueze</h2>
-            <a href="resume.html">
-                <div class="links" id="secondbox">
-                    RESUME QUICK ACCESS
-                </div>
-            </a>
-
-
+    </section>
+<!-- her end -->
             <!-- bootstrap scrpt -->
             <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
                 integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
