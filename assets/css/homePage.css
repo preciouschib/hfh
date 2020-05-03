@@ -1,56 +1,64 @@
-/* her */
-.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+.container-fluid {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-top: 20px;
 }
 
-.nonProfitContainer {
-    margin: 50px 0;
-}
-.logoContainer {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-}
-.logo {
-    width: 15%;
-    height: auto;
+#hfhNav li.nav-item a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: darkgreen;
+    text-align: center;
 }
 
-img {
+.nav-item {
+    color: gray;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
     vertical-align: middle;
-    border-style: none;
+    color: darkgreen;
 }
-@media (min-width: 768px)
-.navbar-expand-md {
-    -ms-flex-flow: row nowrap;
-    flex-flow: row nowrap;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
+.insideContainer{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 15px;
 }
-.aboutDiv {
+/* intro */
+.hfht {
+    text-align: center;
+    color: grey;
+}
+.intro {
+    text-align: center;
+}
+.pDiv {
     height: 500px;
     background-color: orange;
-    margin: 20px
+}
 
 .navbar {
     position: relative;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -ms-flex-align: center;
     align-items: center;
-/* end her */
+}
+
+/* elements */
+.fas {
+    size: .5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
 
 #secondbox {
     width: 200px;
     height: 40px;
-    background-color:transparent;
-    border: dashed; 
+    background-color: transparent;
+    border: dashed;
     border-color: black;
     padding: 5px;
     margin: 10px;
@@ -58,3 +66,33 @@ img {
     border-width: 2px;
 }
 
+/* end */
+.resumeBtnContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {   
+    vertical-align: middle;
+    text-align: center;
+    background: lightgray;
+   width: 150px;
+    border-radius: 15px;
+    color: rgb(106, 85, 53);
+    font-size: 15px;
+}
+
+#TY {
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
+#scrollbutton {
+    color: gray;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-top: -15px;
+}
