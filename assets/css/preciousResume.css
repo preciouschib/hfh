@@ -177,20 +177,5 @@
 .fab {
     color: rgb(140, 116, 179);
 }
-/* media */
-@media (min-width: 768px)
-.d-md-none (
-    display: none!important)
-)
-  
 
-footer {
-    padding: 10px;
-    background: burlywood;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    height: 50px;
-    text-align: center;
-    color: white;
-}
+  

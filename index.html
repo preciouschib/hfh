@@ -17,132 +17,284 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/938a18ead6.js" crossorigin="anonymous"></script>
-
 </head>
 
-<body>
+
+<body id="topPage" data-spy="scroll" data-offset="0" data-target="topPage">
     <!-- hers -->
     <div class="container-fluid nonProfitContainer">
         <!-- navigation  -->
-        <nav class="navbar navbar-expand-md nonProfitNav">
-            <!-- hamburger icon -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nonProfitNav"
-                aria-controls="nonProfitNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon">
-                    <i class="fas fa-home" aria-hidden="true"></i>
-                </span>
+        <section class="navigate">
+            <nav class="navbar navbar-expand-md nonProfitNav">
+                <!-- hamburger icon -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nonProfitNav"
+                    aria-controls="nonProfitNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <i class="fas fa-home" aria-hidden="true"></i>
+                    </span>
+                </button>
 
-            </button>
+                <div class="collapse navbar-collapse" id="hfhNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link smoothScroll" href="#wfSection">Wireframe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link smoothScroll" href="#siteMapSection">Sitemap</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link smoothScroll" href="#upSection">User Persona</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link smoothScroll" href="#styleGuideSection">Style Guide</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">Prototypes</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#homeSection">Home</a>
+                                <a class="dropdown-item" href="#aboutSection" target="_blank">About Us</a>
+                                <a class="dropdown-item" href="#eventsSection" target="_blank">Events</a>
+                                <a class="dropdown-item" href="#donateSection">Donate</a>
+                                <a class="dropdown-item" href="#sponsorSection" target="_blank">Sponsor</a>
+                                <a class="dropdown-item" href="#contactSection" target="_blank">Contact</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
 
-            <div class="collapse navbar-collapse" id="hfhNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link smoothScroll" href="#wfSection">Wireframe</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link smoothScroll" href="#siteMapSection">Sitemap</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link smoothScroll" href="#upSection">User Persona</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link smoothScroll" href="#styleGuideSection">Style Guide</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false">Prototypes</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#homeSection">Home</a>
-                            <a class="dropdown-item" href="#aboutSection" target="_blank">About Us</a>
-                            <a class="dropdown-item" href="#eventsSection" target="_blank">Events</a>
-                            <a class="dropdown-item" href="#donateSection">Donate</a>
-                            <a class="dropdown-item" href="#contactSection" target="_blank">Contact</a>
-                            <a class="dropdown-item" href="#sponsorSection" target="_blank">Sponsor</a>
+        <!-- intro -->
+        <section>
+            <p class="intro">
+                <img src="assets/images/hfh title.png" class="hfhTitle" width="300" height="auto">
+                <br> Precious Chibueze
+                <br>UX/UI Designer
+                <br><i class="fas fa-circle"></i>
+                <i class="fas fa-circle"></i>
+                <i class="fas fa-circle"></i>
+                <br>The purpose of this nonprofit is to build small homes for families in need
+                <br>through events and donations with the help of sponsors and volunteers</p>
+        </section>
+        <br>
+
+        <!-- wf -->
+        <p class="wfTitle">
+            <img src="assets/images/wf title.png" class="wfTitle" width="200" height="auto"></p>
+
+        <section class="wf">
+            <div class="row">
+                <div id="threeCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="col-6 col-md-3" src="assets/images/mini wf.png" height="250" width="auto">
                         </div>
-                    </li>
-                </ul>
+                        <div class="carousel-item">
+                            <img class="col-6 col-md-3" src="assets/images/medium wf.png" height="300" width="auto">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="col-6 col-md-3" src="assets/images/large wf.png" height="250" width="auto">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#muliCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#muliCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
+                </div>
             </div>
-        </nav>
-        <!-- pic -->
-        <div class="insideContainer">
-            <img src="assets/images/logo.png" class="logo" width="400" height="auto">
-            <!-- intro -->
-            <section>
-                <h1 class="hfht">Housing for the
-                    <br>Helpless </h1>
-                <p class="intro">Precious Chibueze
-                    <br>UX/UI Designer
-                    <br><i class="fas fa-circle"></i>
-                    <i class="fas fa-circle"></i>
-                    <i class="fas fa-circle"></i>
-                    <br>The purpose of this nonprofit is to build small homes for families in need
-                    <br>through events and donations with the help of sponsors and volunteers</p>
-            </section>
-            <!-- prototype section -->
-            <section id="homeSection" data-spy="scroll" data-offset="0" data-target="siteMapSection">
-                <div class="pDiv">
-                    <p>this is my about section</p>
-                    <p>this is my about section</p>
-                    <p>this is my about section</p>
-                    <p>this is my about section</p>
-                    <p>this is my about section</p>
-                    <p>this is my about section</p>
-                </div>
-            </section>
-
-            <section id="aboutSection" data-spy="scroll" data-offset="0" data-target="siteMapSection">
-                <div class="pDiv">
-                    <p>this is my sitemap section</p>
-                    <p>this is my sitemap section</p>
-                    <p>this is my sitemap section</p>
-                    <p>this is my sitemap section</p>
-                    <p>this is my sitemap section</p>
-                    <p>this is my sitemap section</p>
-                </div>
-            </section>
-
-            <section id="eventsSection" data-spy="scroll" data-offset="0" data-target="styleGuideSection">
-                <div class="pDiv">
-                    <p>this is my styleguide section</p>
-                    <p>this is my styleguide section</p>
-                    <p>this is my styleguide section</p>
-                    <p>this is my styleguide section</p>
-                    <p>this is my styleguide section</p>
-                    <p>this is my styleguide section</p>
-                </div>
-            </section>
-            <section id="donateSection" data-spy="scroll" data-offset="0" data-target="siteMapSection">
-                <div class="pDiv">
-                    <p>this is my about section</p>
-                    <p>this is my about section</p>
-                    <p>this is my about section</p>
-                    <p>this is my about section</p>
-                    <p>this is my about section</p>
-                    <p>this is my about section</p>
-                </div>
-            </section>
-            <section id="contactSection" data-spy="scroll" data-offset="0" data-target="siteMapSection">
-                <div class="pDiv">
-                    <p>this is my sitemap section</p>
-                    <p>this is my sitemap section</p>
-                    <p>this is my sitemap section</p>
-                    <p>this is my sitemap section</p>
-                    <p>this is my sitemap section</p>
-                    <p>this is my sitemap section</p>
-                </div>
-            </section>
-
-            <section id="sponsorSection" data-spy="scroll" data-offset="0" data-target="styleGuideSection">
-                <div class="pDiv">
-                    <p>this is my styleguide section</p>
-                    <p>this is my styleguide section</p>
-                    <p>this is my styleguide section</p>
-                    <p>this is my styleguide section</p>
-                    <p>this is my styleguide section</p>
-                    <p>this is my styleguide section</p>
-                </div>
-            </section>
+        </section>
+        <div class="wfc">
+            <i class="fas fa-circle"></i>
+            <i class="fas fa-circle"></i>
+            <i class="fas fa-circle"></i>
         </div>
+
+        <!-- site plan -->
+        <section class="sitepp">
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="assets/images/site plan.png" height="600" width="auto">
+                </div>
+            </div>
+        </section>
+        <div class="wfc">
+            <i class="fas fa-circle"></i>
+            <i class="fas fa-circle"></i>
+            <i class="fas fa-circle"></i>
+        </div>
+
+        <!-- user persona -->
+        <section class="userpp">
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="assets/images/userpersona.png" height="600" width="auto">
+                </div>
+            </div>
+        </section>
+        <div class="wfc">
+            <i class="fas fa-circle"></i>
+            <i class="fas fa-circle"></i>
+            <i class="fas fa-circle"></i>
+        </div>
+
+        <!-- colors/icons -->
+        <!-- color circles -->
+        <section class="colors">
+            <div class="row">
+                <div id="cone">
+                    #707070
+                </div>
+                <div id="ctwo">
+                    #B4A48C
+                </div>
+                <div id="cthree">
+                    #21492C
+                </div>
+                <div id="cfour">
+                    #3F2C16
+                </div>
+                <div id="cfive">
+                    ##AFAFAE
+                </div>
+                <div class="colortext">
+                    <br>greens
+                    <br>browns
+                    <br>grays
+                </div>
+            </div>
+        </section>
+
+<!-- icon text -->
+        <section class="iconpara">
+        <div class="row">
+            <div class="col-md-7">
+                <br>the whole purpose of the website’s style
+                <br>is to reflect warmth while still
+                <br>remaining informational
+            </div>
+            <div class="col-md-5">
+            </div>
+        </div>
+    </section>
+<!-- icon picture -->
+        <section class="iconp">
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="assets/images/icons.png" height="400" width="auto">
+                </div>
+            </div>
+        </section>
+        <div class="wfc">
+            <i class="fas fa-circle"></i>
+            <i class="fas fa-circle"></i>
+            <i class="fas fa-circle"></i>
+        </div>
+
+        <!-- prototype section -->
+        <!-- HOME -->
+        <section id="homeSection" data-spy="scroll" data-offset="0" data-target="siteMapSection">
+            <div class="pDiv">
+                <p>this is my about section</p>
+                <p>this is my about section</p>
+                <p>this is my about section</p>
+                <p>this is my about section</p>
+                <p>this is my about section</p>
+                <p>this is my about section</p>
+            </div>
+        </section>
+
+        <!-- seperation dots -->
+        <section>
+            <br><i class="fas fa-circle"></i>
+            <i class="fas fa-circle"></i>
+            <i class="fas fa-circle"></i>
+            <br>
+        </section>
+        <!-- ABOUT US  -->
+        <section id="aboutSection" data-spy="scroll" data-offset="0" data-target="siteMapSection">
+            <div class="pDiv">
+                <p>this is my sitemap section</p>
+                <p>this is my sitemap section</p>
+            </div>
+            <div class="ASrow">
+                <div class="col-md-4">
+                    <img src="assets/images/p1.png" class="aboutphoto1">
+                </div>
+                <div class="col-md-4">
+                    <img src="assets/images/p2.png" class="aboutphotos">
+                </div>
+
+                <div class="col-md-4">
+                    <img src="assets/images/p3.png" class="aboutphotos">
+                </div>
+
+            </div>
+        </section>
+
+        <section id="eventsSection" data-spy="scroll" data-offset="0" data-target="styleGuideSection">
+            <div class="pDiv">
+                <p>Page designed by Yesenia Rodriguez</p>
+                <p>Edited by Precious Chibueze</p>
+            </div>
+        </section>
+        <section id="donateSection" data-spy="scroll" data-offset="0" data-target="siteMapSection">
+            <div class="pDiv">
+                <p>this is my about section</p>
+                <p>this is my about section</p>
+                <p>this is my about section</p>
+            </div>
+        </section>
+        <section id="sponsorSection" data-spy="scroll" data-offset="0" data-target="styleGuideSection">
+            <div class="pDiv">
+                <p>Page designed by Yesenia Rodriguez</p>
+                <p>Edited by Precious Chibueze</p>
+            </div>
+        </section>
+        <!-- CONTACT -->
+        <section id="contactSection" data-spy="scroll" data-offset="0" data-target="siteMapSection">
+            <div class="pDiv">
+                <p>Page designed by Yesenia Rodriguez</p>
+                <p>Edited by Precious Chibueze</p>
+            </div>
+            <div id="webfoot">
+                <div class="ASrow">
+                    <div class="col-md-4">
+                        <p class="one">Housing for the Helpless</p>
+                        <p class="two">Come Build With Us!</p>
+                        <p class="three">Copyright</p>
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="assets/images/first.png">
+                            </div>
+
+                            <div class="col-4">
+                                <img src="assets/images/second.png">
+                            </div>
+
+                            <div class="col-4">
+                                <img src="assets/images/third.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <img src="assets/images/green logo.png" class="agreenlogo">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- vid -->
+        <section class="video-section">
+            <video controls>
+                <source src="assets/vid">
+            </video>
+        </section>
         <!-- end -->
         <div class="resumeBtnContainer">
             <a href="preciousResume.html" class="buttons">RESUME</a>
@@ -153,18 +305,33 @@
                 thank
                 <br>you
             </h1>
-            <p id="scrollbutton"><i class="fas fa-home"></i></p>
         </div>
-        <!-- bootstrap scrpt -->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-        </script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-        </script>
+
+        <!-- tool tip scroll button -->
+        <section class="btntoTop">
+            <div class="row customToolTip">
+                <div class="col-12">
+                    <a class="btn toTop" data-toggle="tooltip" data-placement="right" title="Back to Top"
+                        href="#topPage">
+                        <span>
+                            <img src="assets/images/scroll.png">
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- bootstrap scrpt -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
 
 </body>
 
