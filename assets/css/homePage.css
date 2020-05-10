@@ -1,7 +1,7 @@
 .container-fluid {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
     margin-top: 10px;
 }
 /* navigate section */
@@ -33,11 +33,6 @@
     align-items: center;
 }
 
-.insideContainer {
-    margin-left: 15px;
-    margin-right: 15px;
-    padding: 15px;
-}
 
 /* intro */
 .col-12 {
@@ -225,8 +220,24 @@
     vertical-align: middle;
 }
 /* events */
-
+#eventsSection {
+    justify-content: center;
+    display: flex;
+}
+.eventp {
+    border-radius: 2%;
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+    vertical-align: middle;
+    justify-content: center;
+    display: flex;   
+}
 /* donate */
+#donateSection {
+    justify-content: center;
+    display: flex;
+}
 .donatep {
     border-radius: 2%;
     border-width: 10px;
