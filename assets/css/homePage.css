@@ -4,7 +4,7 @@
     padding-left: 15px;
     margin-top: 10px;
 }
-
+/* navigate section */
 .navigate {
     justify-content: center;
     display: flex;
@@ -34,8 +34,8 @@
 }
 
 .insideContainer {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
     padding: 15px;
 }
 
@@ -118,12 +118,18 @@
 }
 
 /* colors and icons */
+#colorpp {
+    justify-content: center;
+    display: flex;
+}
 .colors {
     justify-content: center;
     display: flex;
-    color:black;
+    color:white;
     font-size: 15px;
+    text-align: center;
 }
+
 #cone {
     height: 100px;
     width: 100px;
@@ -176,7 +182,7 @@
 }
 .colortext {
     color: black;
-    
+    text-align: left;
 }
 
 .iconpara {
@@ -188,32 +194,89 @@
     justify-content: center;
     display: flex;
 }
-
+/* PROTOTYPES */
 /* aboutsection */
-.ASrow {
-    align-items: center;
+#aboutusSection {
     justify-content: center;
     display: flex;
 }
-
+.aboutusp {
+    border-radius: 2%;
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;   
+}
+.ASline {
+    justify-content: center;
+    display: flex;
+}
 .aboutphoto1 {
-    width: 250px;
-    height: 230px;
+    width: 260px;
+    height: 240px;
     vertical-align: middle;
     border: groove;
     border-color: black;
     border-width: 2px;
     padding: 10px
 }
-
 .aboutphotos {
     width: 250px;
     height: 230px;
     vertical-align: middle;
 }
+/* events */
+
+/* donate */
+.donatep {
+    border-radius: 2%;
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+    vertical-align: middle;
+    justify-content: center;
+    display: flex;   
+}
+
+/* sponsor */
+#sponsorSection {
+    justify-content: center;
+    display: flex;
+}
+.sponsorp {
+    border-radius: 2%;
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+    vertical-align: middle;
+    justify-content: center;
+    display: flex;   
+}
+/* contact */
+#contactSection {
+    justify-content: center;
+    display: flex;
+}
+.contactp {
+    border-radius: 2%;
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+    vertical-align: middle;
+    justify-content: center;
+    display: flex;   
+}
+/* contactfooter */
+#webfoot {
+    background-color: lightgray;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    margin-right: 160px;
+    margin-left: 160px;
+    line-height: 30%;
+    padding: 15px;
+}
 
 /* elements */
-
 #secondbox {
     width: 200px;
     height: 40px;
@@ -234,14 +297,7 @@
 
 }
 
-/* webfooter */
-#webfoot {
-    background-color: lightgray;
-    opacity: 80%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
+/* text */
 .one {
     margin-top: 20px;
     color: darkgreen;
@@ -256,6 +312,17 @@
 .three {
     color: black;
     font-size: 25px;
+}
+/* icons */
+.fab {
+    margin-top: 30px;
+    font-size: 40px;
+    color:  rgb(63, 44, 22);
+}
+/* menus */
+.menus {
+    display: flex;
+    justify-content: center; 
 }
 
 /* end */
