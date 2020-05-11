@@ -11,7 +11,7 @@
     display: flex;
 }
 
-#hfhNav li.nav-item a {
+#nonProfitNav li.nav-item a {
     text-transform: uppercase;
     font-weight: bold;
     color: darkgreen;
@@ -23,8 +23,11 @@
 }
 
 .navbar-toggler-icon {
-    display: inline-block;
     color: darkgreen;
+}
+
+.fasfa-home {
+    height: 100px;
 }
 
 .navbar {
@@ -33,7 +36,6 @@
     flex-wrap: wrap;
     align-items: center;
 }
-
 
 /* intro */
 .col-12 {
@@ -52,7 +54,6 @@
 .intro {
     text-align: center;
 }
-
 
 /* wf */
 .wf {
@@ -77,32 +78,6 @@
     margin: 30px 0;
 }
 
-#threeCarousel .carousel-inner .carousel-item.active,
-#threeCarousel .carousel-inner .carousel-item-next,
-#threeCarousel .carousel-inner .carousel-item-prev,
-    {
-    display: flex;
-    justify-content: center;
-}
-
-#threeCarousel .carousel-inner .carousel-item-right.active,
-#threeCarousel .carousel-inner .carousel-item-next,
-    {
-    transform: translateX(50%) !important;
-}
-
-#threeCarousel .carousel-inner .carousel-item-left.active,
-#threeCarousel .carousel-inner .carousel-item-prev,
-    {
-    transform: translateX(-50%) !important;
-}
-
-#threeCarousel .carousel-inner .carousel-item-left-active,
-#threeCarousel .carousel-inner .carousel-item-left,
-    {
-    transform: translateX(0) !important;
-}
-
 .ccarousel-control-prev-icon {
     color: black;
 }
@@ -119,12 +94,17 @@
 
 /* user persona */
 .userpp {
-    justify-content: center;
     display: flex;
+    justify-content: center;
+    margin-left: 10px;
 }
 
-/* colors and icons */
-#colorpp {
+.userpp img {
+    height: 600px;
+    width: auto;
+}
+
+.colorpp {
     justify-content: center;
     display: flex;
 }
@@ -203,7 +183,14 @@
 .iconp {
     justify-content: center;
     display: flex;
+    margin-right: 45px;
 }
+
+.iconp img {
+    height: 500px;
+    width: auto;
+}
+
 
 /* PROTOTYPES */
 /* aboutsection */
@@ -311,11 +298,18 @@
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
 .creditext {
     padding-left: 150px;
 }
 
 /* contactfooter */
+.glfoot {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+}
+
 #webfoot {
     background-color: lightgray;
     margin-top: -10px;
@@ -361,6 +355,11 @@
     justify-content: center;
 }
 
+.menus img {
+    height: 750px;
+    width: auto;
+}
+
 /* end */
 .resumeBtnContainer {
     margin-top: 20px;
@@ -392,21 +391,35 @@
 }
 
 /* media  queries*/
-@media (max-width: 768px)  {
+@media (max-width: 768px) {
+
+    /* user persona */
+    .userpp {
+        display: flex;
+        justify-content: center;
+        margin-left: 10px;
+    }
+
+    .userpp img {
+        height: 500px;
+        width: auto;
+    }
+
     /* colors and icons */
     .colors {
         justify-content: center;
         display: flex;
         color: white;
-        font-size: 6px;
+        font-size: 9px;
+        fon
         text-align: center;
         font-display: none !important;
         margin-top: -10px;
     }
-    
+
     #cone {
-        height: 50px;
-        width: 50px;
+        height: 60px;
+        width: 60px;
         padding: -20px;
         border-radius: 50%;
         border-width: 1px;
@@ -415,40 +428,40 @@
         border-style: solid;
         text-decoration: white;
     }
-    
+
     #ctwo {
-        height: 50px;
-        width: 50px;
+        height: 60px;
+        width: 60px;
         border-radius: 50%;
         border-width: 1px;
         border-color: black;
         background-color: rgb(84, 60, 23);
         border-style: solid;
     }
-    
+
     #cthree {
-        height: 50px;
-        width: 50px;
+        height: 60px;
+        width: 60px;
         border-radius: 50%;
         border-width: 1px;
         border-color: black;
         background-color: rgb(33, 73, 44);
         border-style: solid;
     }
-    
+
     #cfour {
-        height: 50px;
-        width: 50px;
+        height: 60px;
+        width: 60px;
         border-radius: 50%;
         border-width: 1px;
         border-color: black;
         background-color: rgb(63, 44, 22);
         border-style: solid;
     }
-    
+
     #cfive {
-        height: 50px;
-        width: 50px;
+        height: 60px;
+        width: 60px;
         border-radius: 50%;
         border-width: 1px;
         border-color: black;
@@ -456,17 +469,25 @@
         border-style: solid;
         margin-right: 15px;
     }
-    
+
     .colortext {
         display: none !important;
     }
-    
+
+    .colorpp {
+        display: flex;
+        justify-content: center;
+    }
+    .colorpp img {
+        height: 100px;
+        width: auto;
+    }
     .iconpara {
         text-align: left;
         padding-right: 50px;
         font-size: 12px;
     }
-    
+
     .iconp {
         justify-content: center;
         display: flex;
@@ -474,11 +495,23 @@
 }
 }
 
-@media (miwidth: 768px) .col-md-4 {
-    flex: 33.333333%;
-    max-width: 33.333333%;
+@media only screen and (max-width: 1000px) {
+
+    /* colors and icons */
+    .iconp {
+        justify-content: center;
+        display: flex;
+        margin-right: 20px;
+    }
+
+    .iconp img {
+        height: 200px;
+        width: auto;
+    }
 }
+
 @media only screen and (max-width: 1200px) {
+
     /* contactfooter */
     #webfoot {
         margin-bottom: 10px;
@@ -516,29 +549,42 @@
         height: 70px;
         width: auto;
     }
-    }
+}
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1300px) {
     .userpp {
         width: auto;
         height: 100%;
         display: flex;
         justify-content: center;
     }
+
     /* elements */
     .creditext {
         padding-left: 10px;
+    }
+
+    /* colors and icons */
+    .iconp {
+        justify-content: center;
+        display: flex;
+        margin-right: 15px;
+    }
+
+    .iconp img {
+        height: 400px;
+        width: auto;
     }
 
     /* protoypes */
     .aboutusp {
         width: 100%;
         height: auto;
-        border-width: 2px;
+        border-width: 1px;
         display: flex;
         justify-content: center;
     }
-    
+
     .aboutphoto1 {
         width: 210px;
         height: 190px;
@@ -547,7 +593,7 @@
         border-width: 2px;
         padding: 10px
     }
-    
+
     .aboutphotos {
         width: 200px;
         height: 180px;
@@ -635,54 +681,101 @@
     }
 }
 
+@media only screen and (max-width: 900px) {
+    .iconp {
+        justify-content: center;
+        display: flex;
+        margin-right: 10px;
+    }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
-    /* For mobile phones: */
-    .menus {
+    .iconp img {
+        height: 300px;
         width: auto;
-        height: 10%;
+    }
+
+    .menus {
         display: flex;
         justify-content: center;
     }
 
-    /* contactfooter */
-    #webfoot {
-        margin-bottom: 10px;
-        margin-right: 5px;
-        margin-left: 5px;
-        padding: 10px;
-    }
-
-    /* footertext */
-    .one {
-        margin-top: 10px;
-        color: darkgreen;
-        font-size: 10px;
-    }
-
-    .two {
-        color: black;
-        font-size: 10px;
-    }
-
-    .three {
-        color: black;
-        font-size: 10px;
-        font-weight: 400;
-    }
-
-    /* icons */
-    .fab {
-        margin-top: 15px;
-        font-size: 20px;
-        color: rgb(63, 44, 22);
-    }
-
-    .greenlogo {
-        height: 50px;
+    .menus img {
+        height: 550px;
         width: auto;
     }
 
-}
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+
+        /* For mobile phones: */
+        /* menu */
+        /* user persona */
+        .userpp {
+            display: flex;
+            justify-content: center;
+            margin-left: 10px;
+        }
+
+        .userpp img {
+            height: 350px;
+            width: auto;
+        }
+
+        .menus {
+            display: flex;
+            justify-content: center;
+        }
+
+        .menus img {
+            height: 450px;
+            width: auto;
+        }
+
+        .iconp {
+            justify-content: center;
+            display: flex;
+            margin-right: 20px;
+        }
+
+        .iconp img {
+            height: 200px;
+            width: auto;
+        }
+
+        /* contactfooter */
+        #webfoot {
+            margin-bottom: 10px;
+            margin-right: 5px;
+            margin-left: 5px;
+            padding: 10px;
+        }
+
+        /* footertext */
+        .one {
+            margin-top: 10px;
+            color: darkgreen;
+            font-size: 10px;
+        }
+
+        .two {
+            color: black;
+            font-size: 10px;
+        }
+
+        .three {
+            color: black;
+            font-size: 10px;
+            font-weight: 400;
+        }
+
+        /* icons */
+        .fab {
+            margin-top: 15px;
+            font-size: 20px;
+            color: rgb(63, 44, 22);
+        }
+
+        .greenlogo {
+            height: 50px;
+            width: auto;
+        }
+    }
