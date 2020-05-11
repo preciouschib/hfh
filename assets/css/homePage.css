@@ -4,6 +4,7 @@
     padding-left: 20px;
     margin-top: 10px;
 }
+
 /* navigate section */
 .navigate {
     justify-content: center;
@@ -52,11 +53,6 @@
     text-align: center;
 }
 
-.pDiv {
-    height: 500px;
-    background-color: orange;
-}
-
 
 /* wf */
 .wf {
@@ -78,26 +74,41 @@
 
 /* carousel */
 #threeCarousel {
-    margin: 30px;
+    margin: 30px 0;
 }
 
-#multiCarousel .carousel-inner .carousel-item.active,
-#multiCarousel .carousel-inner .carousel-item-next,
-#multiCarousel .carousel-inner .carousel-item-prev,
+#threeCarousel .carousel-inner .carousel-item.active,
+#threeCarousel .carousel-inner .carousel-item-next,
+#threeCarousel .carousel-inner .carousel-item-prev,
     {
     display: flex;
+    justify-content: center;
 }
 
-#multiCarousel .carousel-inner .carousel-item-right.active,
-#multiCarousel .carousel-inner .carousel-item-next,
+#threeCarousel .carousel-inner .carousel-item-right.active,
+#threeCarousel .carousel-inner .carousel-item-next,
     {
-    transform: translateX(33.33%) !important;
+    transform: translateX(50%) !important;
 }
 
-#multiCarousel .carousel-inner .carousel-item-left.active,
-#multiCarousel .carousel-inner .carousel-item-prev,
+#threeCarousel .carousel-inner .carousel-item-left.active,
+#threeCarousel .carousel-inner .carousel-item-prev,
     {
-    transform: translateX(-33.33%) !important;
+    transform: translateX(-50%) !important;
+}
+
+#threeCarousel .carousel-inner .carousel-item-left-active,
+#threeCarousel .carousel-inner .carousel-item-left,
+    {
+    transform: translateX(0) !important;
+}
+
+.ccarousel-control-prev-icon {
+    color: black;
+}
+
+.carousel-control-next-icon {
+    color: black;
 }
 
 /* site plan */
@@ -117,64 +128,68 @@
     justify-content: center;
     display: flex;
 }
+
 .colors {
     justify-content: center;
     display: flex;
-    color:white;
+    color: white;
     font-size: 15px;
     text-align: center;
 }
 
 #cone {
-    height: 100px;
-    width: 100px;
     padding: -20px;
     border-radius: 50%;
     height: 100px;
     width: 100px;
     border-width: 2px;
-    border-color:black;
+    border-color: black;
     background-color: rgb(175, 175, 174);
     border-style: solid;
     text-decoration: white;
 }
+
 #ctwo {
     height: 100px;
     width: 100px;
     border-radius: 50%;
     border-width: 2px;
-    border-color:black;
+    border-color: black;
     background-color: rgb(84, 60, 23);
     border-style: solid;
 }
+
 #cthree {
     height: 100px;
     width: 100px;
     border-radius: 50%;
     border-width: 2px;
-    border-color:black;
+    border-color: black;
     background-color: rgb(33, 73, 44);
     border-style: solid;
 }
+
 #cfour {
     height: 100px;
     width: 100px;
     border-radius: 50%;
     border-width: 2px;
-    border-color:black;
+    border-color: black;
     background-color: rgb(63, 44, 22);
     border-style: solid;
 }
+
 #cfive {
     height: 100px;
     width: 100px;
     border-radius: 50%;
     border-width: 2px;
-    border-color:black;
+    border-color: black;
     background-color: rgb(112, 112, 112);
     border-style: solid;
     margin-right: 15px;
 }
+
 .colortext {
     color: black;
     text-align: left;
@@ -189,22 +204,26 @@
     justify-content: center;
     display: flex;
 }
+
 /* PROTOTYPES */
 /* aboutsection */
 #aboutusSection {
     justify-content: center;
     display: flex;
 }
+
 .aboutusp {
     border-radius: 2%;
     border-width: 10px;
     border-color: black;
-    border-style: solid;   
+    border-style: solid;
 }
+
 .ASline {
     justify-content: center;
     display: flex;
 }
+
 .aboutphoto1 {
     width: 260px;
     height: 240px;
@@ -214,16 +233,19 @@
     border-width: 2px;
     padding: 10px
 }
+
 .aboutphotos {
     width: 250px;
     height: 230px;
     vertical-align: middle;
 }
+
 /* events */
 #eventsSection {
     justify-content: center;
     display: flex;
 }
+
 .eventp {
     border-radius: 2%;
     border-width: 10px;
@@ -231,13 +253,15 @@
     border-style: solid;
     vertical-align: middle;
     justify-content: center;
-    display: flex;   
+    display: flex;
 }
+
 /* donate */
 #donateSection {
     justify-content: center;
     display: flex;
 }
+
 .donatep {
     border-radius: 2%;
     border-width: 10px;
@@ -245,7 +269,7 @@
     border-style: solid;
     vertical-align: middle;
     justify-content: center;
-    display: flex;   
+    display: flex;
 }
 
 /* sponsor */
@@ -253,6 +277,7 @@
     justify-content: center;
     display: flex;
 }
+
 .sponsorp {
     border-radius: 2%;
     border-width: 10px;
@@ -260,13 +285,15 @@
     border-style: solid;
     vertical-align: middle;
     justify-content: center;
-    display: flex;   
+    display: flex;
 }
+
 /* contact */
 #contactSection {
     justify-content: center;
     display: flex;
 }
+
 .contactp {
     border-radius: 2%;
     border-width: 10px;
@@ -274,8 +301,17 @@
     border-style: solid;
     vertical-align: middle;
     justify-content: center;
-    display: flex;   
+    display: flex;
 }
+
+/* elements */
+.fas {
+    font-size: 10px;
+    text-emphasis: middle;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 /* contactfooter */
 #webfoot {
     background-color: lightgray;
@@ -283,32 +319,10 @@
     margin-bottom: 20px;
     margin-right: 160px;
     margin-left: 160px;
-    line-height: 30%;
     padding: 15px;
 }
 
-/* elements */
-#secondbox {
-    width: 200px;
-    height: 40px;
-    background-color: transparent;
-    border: dashed;
-    border-color: black;
-    padding: 5px;
-    margin: 10px;
-    text-align: center;
-    border-width: 2px;
-}
-
-.fas {
-    font-size: 10px;
-    text-emphasis: middle;
-    padding-top: 15px;
-    padding-bottom: 15px;
-
-}
-
-/* text */
+/* footertext */
 .one {
     margin-top: 20px;
     color: darkgreen;
@@ -324,16 +338,23 @@
     color: black;
     font-size: 25px;
 }
+
 /* icons */
 .fab {
     margin-top: 30px;
-    font-size: 40px;
-    color:  rgb(63, 44, 22);
+    font-size: 35px;
+    color: rgb(63, 44, 22);
 }
+
+.greenlogo {
+    height: 100px;
+    width: auto;
+}
+
 /* menus */
 .menus {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
 
 /* end */
@@ -366,13 +387,299 @@
     justify-content: center;
 }
 
-/* media  */
-@media (min-width: 768px) .col-md-3 {
-    flex: 25%;
-    max-width: 25%;
+/* media  queries*/
+@media (max-width: 768px)  {
+    /* colors and icons */
+    .colors {
+        justify-content: center;
+        display: flex;
+        color: white;
+        font-size: 6px;
+        text-align: center;
+        font-display: none !important;
+        margin-top: -10px;
+    }
+    
+    #cone {
+        height: 50px;
+        width: 50px;
+        padding: -20px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-color: black;
+        background-color: rgb(175, 175, 174);
+        border-style: solid;
+        text-decoration: white;
+    }
+    
+    #ctwo {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-color: black;
+        background-color: rgb(84, 60, 23);
+        border-style: solid;
+    }
+    
+    #cthree {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-color: black;
+        background-color: rgb(33, 73, 44);
+        border-style: solid;
+    }
+    
+    #cfour {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-color: black;
+        background-color: rgb(63, 44, 22);
+        border-style: solid;
+    }
+    
+    #cfive {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border-width: 1px;
+        border-color: black;
+        background-color: rgb(112, 112, 112);
+        border-style: solid;
+        margin-right: 15px;
+    }
+    
+    .colortext {
+        display: none !important;
+    }
+    
+    .iconpara {
+        text-align: left;
+        padding-right: 50px;
+        font-size: 12px;
+    }
+    
+    .iconp {
+        justify-content: center;
+        display: flex;
+    }
 }
 
 @media (min-width: 768px) .col-md-4 {
     flex: 33.333333%;
     max-width: 33.333333%;
+}
+@media only screen and (max-width: 1200px) {
+    /* contactfooter */
+    #webfoot {
+        margin-bottom: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 10px;
+    }
+
+    /* footertext */
+    .one {
+        margin-top: 10px;
+        color: darkgreen;
+        font-size: 10px;
+    }
+
+    .two {
+        color: black;
+        font-size: 15px;
+    }
+
+    .three {
+        color: black;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    /* icons */
+    .fab {
+        margin-top: 15px;
+        font-size: 20px;
+        color: rgb(63, 44, 22);
+    }
+
+    .greenlogo {
+        height: 70px;
+        width: auto;
+    }
+    }
+
+@media only screen and (max-width: 1000px) {
+    .userpp {
+        width: auto;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* protoypes */
+    .aboutusp {
+        width: 100%;
+        height: auto;
+        border-width: 2px;
+        display: flex;
+        justify-content: center;
+    }
+    .ASline {
+        justify-content: center;
+        display: flex;
+    }
+    
+    .aboutphoto1 {
+        width: 260px;
+        height: 240px;
+        vertical-align: middle;
+        border: groove;
+        border-color: black;
+        border-width: 2px;
+        padding: 10px
+    }
+    
+    .aboutphotos {
+        width: 200px;
+        height: 180px;
+        vertical-align: middle;
+    }
+
+    .eventp {
+        width: 100%;
+        height: auto;
+        border-width: 2px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .donatep {
+        width: 100%;
+        height: auto;
+        border-width: 2px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sponsorp {
+        width: 100%;
+        height: auto;
+        border-width: 2px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contactp {
+        width: 100%;
+        height: auto;
+        border-width: 2px;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* contactfooter */
+    #webfoot {
+        margin-bottom: 10px;
+        margin-right: 5px;
+        margin-left: 5px;
+        padding: 10px;
+    }
+
+    /* footertext */
+    .one {
+        margin-top: 10px;
+        color: darkgreen;
+        font-size: 10px;
+    }
+
+    .two {
+        color: black;
+        font-size: 15px;
+    }
+
+    .three {
+        color: black;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    /* icons */
+    .fab {
+        margin-top: 15px;
+        font-size: 20px;
+        color: rgb(63, 44, 22);
+    }
+
+    .greenlogo {
+        height: 70px;
+        width: auto;
+    }
+
+    /* elements */
+    .creditext {
+        font-size: 10px;
+    }
+
+    .ASline {
+        flex: 50%;
+        width: 100%;
+        orientation: landscape;
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    /* For mobile phones: */
+    .menus {
+        width: auto;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* contactfooter */
+    #webfoot {
+        margin-bottom: 10px;
+        margin-right: 5px;
+        margin-left: 5px;
+        padding: 10px;
+    }
+
+    /* footertext */
+    .one {
+        margin-top: 10px;
+        color: darkgreen;
+        font-size: 10px;
+    }
+
+    .two {
+        color: black;
+        font-size: 10px;
+    }
+
+    .three {
+        color: black;
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    /* icons */
+    .fab {
+        margin-top: 15px;
+        font-size: 20px;
+        color: rgb(63, 44, 22);
+    }
+
+    .greenlogo {
+        height: 50px;
+        width: auto;
+    }
+
 }
