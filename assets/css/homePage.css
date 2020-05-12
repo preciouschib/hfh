@@ -24,17 +24,10 @@
 
 .navbar-toggler-icon {
     color: darkgreen;
+    size: 25px;
+    font-size: 25px;
 }
 
-.fasfa-home {
-    height: 100px;
-}
-
-.navbar {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
 }
 
 /* intro */
@@ -45,6 +38,7 @@
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+    font-size: 20px;
 }
 
 .hfhTitle {
@@ -74,23 +68,16 @@
 }
 
 /* carousel */
-#threeCarousel {
-    margin: 30px 0;
+.wfss {
+    height: 325px;
+    width: auto;
 }
-
-.ccarousel-control-prev-icon {
-    color: black;
-}
-
-.carousel-control-next-icon {
-    color: black;
-}
-
 /* site plan */
 .sitepp {
     justify-content: center;
     display: flex;
 }
+
 .sitepp img {
     height: 600px;
     width: auto;
@@ -195,7 +182,6 @@
     width: auto;
 }
 
-
 /* PROTOTYPES */
 /* aboutsection */
 #aboutusSection {
@@ -296,7 +282,7 @@
 }
 
 /* elements */
-.fas {
+.fas.fa-cirlce {
     font-size: 10px;
     text-emphasis: middle;
     padding-top: 15px;
@@ -305,6 +291,7 @@
 
 .creditext {
     padding-left: 150px;
+    text-align: left;
 }
 
 /* contactfooter */
@@ -352,12 +339,19 @@
     height: 100px;
     width: auto;
 }
+/* video */
+.video-section video {
+    height: auto;
+    width: 75%;
+}
+.text-center {
+    text-align: center!important;
+}
 
 /* menus */
 .menus {
     display: flex;
     justify-content: center;
-    width: 100%;
 }
 
 .menus img {
@@ -395,13 +389,98 @@
     justify-content: center;
 }
 
-/* media  queries*/
-@media (max-width: 768px) {
+/* all media  queries*/
+/* all media queries */
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+
+    /* For mobile phones: */
     .sitepp {
         justify-content: center;
         display: flex;
         margin-left: 20px;
     }
+
+    .sitepp img {
+        height: 250px;
+        width: auto;
+    }
+
+    /* user persona */
+    .userpp {
+        display: flex;
+        justify-content: center;
+        margin-left: 10px;
+    }
+
+    .userpp img {
+        height: 300px;
+        width: auto;
+    }
+/* vids */
+
+    .menus {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menus img {
+        height: 450px;
+        width: auto;
+    }
+
+    /* contactfooter */
+    #webfoot {
+        margin-bottom: 10px;
+        margin-right: 5px;
+        margin-left: 5px;
+        padding: 10px;
+    }
+
+    /* footertext */
+    .one {
+        margin-top: 10px;
+        color: darkgreen;
+        font-size: 10px;
+    }
+
+    .two {
+        color: black;
+        font-size: 10px;
+    }
+
+    .three {
+        color: black;
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    /* icons */
+    .fab {
+        margin-top: 15px;
+        font-size: 20px;
+        color: rgb(63, 44, 22);
+    }
+
+    .greenlogo {
+        height: 50px;
+        width: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .nonProfitNav {
+        margin: 0;
+        justify-content: center !important;
+    }
+
+    .sitepp {
+        justify-content: center;
+        display: flex;
+        margin-left: 20px;
+    }
+
     .sitepp img {
         height: 400px;
         width: auto;
@@ -415,7 +494,7 @@
     }
 
     .userpp img {
-        height: 500px;
+        height: 400px;
         width: auto;
     }
 
@@ -425,8 +504,7 @@
         display: flex;
         color: white;
         font-size: 9px;
-        fon
-        text-align: center;
+        fon text-align: center;
         font-display: none !important;
         margin-top: -10px;
     }
@@ -492,10 +570,12 @@
         display: flex;
         justify-content: center;
     }
+
     .colorpp img {
-        height: 100px;
+        height: 70px;
         width: auto;
     }
+
     .iconpara {
         text-align: left;
         padding-right: 50px;
@@ -505,9 +585,30 @@
     .iconp {
         justify-content: center;
         display: flex;
+        margin-right: 20px;
     }
+    
+    .iconp img {
+        height: 200px !important;
+        width: auto !important;
+    }
+
+.video-section {
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 }
+
+@media only screen and (max-width: 992px) {
+    .menus {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menus img {
+        height: 550px;
+        width: auto;
+    }
 
 @media (max-width: 992px) {
     .sitepp {
@@ -515,6 +616,7 @@
         display: flex;
         margin-left: 10px;
     }
+
     .sitepp img {
         height: 450px;
         width: auto;
@@ -522,11 +624,12 @@
 }
 
 @media only screen and (max-width: 1000px) {
-    ..sitepp {
+    .sitepp {
         justify-content: center;
         display: flex;
         margin-left: 20px;
     }
+
     .sitepp img {
         height: 450px;
         width: auto;
@@ -540,8 +643,8 @@
     }
 
     .iconp img {
-        height: 200px;
-        width: auto;
+        height: 350px;
+        width: auto ;
     }
 }
 
@@ -571,6 +674,16 @@
         color: black;
         font-size: 20px;
         font-weight: 500;
+    }
+    .iconp {
+        justify-content: center;
+        display: flex;
+        margin-right: 5px;
+    }
+    
+    .iconp img {
+        height: 300px;
+        width: auto;
     }
 
     /* icons */
@@ -640,6 +753,11 @@
         border-width: 2px;
         display: flex;
         justify-content: center;
+    }
+
+    .sitepp img {
+        height: 275px;
+        width: auto;
     }
 
     .donatep {
@@ -715,110 +833,3 @@
         orientation: landscape;
     }
 }
-
-@media only screen and (max-width: 900px) {
-    .iconp {
-        justify-content: center;
-        display: flex;
-        margin-right: 10px;
-    }
-
-    .iconp img {
-        height: 300px;
-        width: auto;
-    }
-
-    .menus {
-        display: flex;
-        justify-content: center;
-    }
-
-    .menus img {
-        height: 550px;
-        width: auto;
-    }
-
-    /* Extra small devices (phones, 600px and down) */
-    @media only screen and (max-width: 600px) {
-
-        /* For mobile phones: */
-        .sitepp {
-            justify-content: center;
-            display: flex;
-            margin-left: 20px;
-        }
-        .sitepp img {
-            height: 250px;
-            width: auto;
-        }
-        /* user persona */
-        .userpp {
-            display: flex;
-            justify-content: center;
-            margin-left: 10px;
-        }
-
-        .userpp img {
-            height: 350px;
-            width: auto;
-        }
-
-        .menus {
-            display: flex;
-            justify-content: center;
-        }
-
-        .menus img {
-            height: 450px;
-            width: auto;
-        }
-
-        .iconp {
-            justify-content: center;
-            display: flex;
-            margin-right: 20px;
-        }
-
-        .iconp img {
-            height: 200px;
-            width: auto;
-        }
-
-        /* contactfooter */
-        #webfoot {
-            margin-bottom: 10px;
-            margin-right: 5px;
-            margin-left: 5px;
-            padding: 10px;
-        }
-
-        /* footertext */
-        .one {
-            margin-top: 10px;
-            color: darkgreen;
-            font-size: 10px;
-        }
-
-        .two {
-            color: black;
-            font-size: 10px;
-        }
-
-        .three {
-            color: black;
-            font-size: 10px;
-            font-weight: 400;
-        }
-
-        /* icons */
-        .fab {
-            margin-top: 15px;
-            font-size: 20px;
-            color: rgb(63, 44, 22);
-        }
-
-        .greenlogo {
-            height: 50px;
-            width: auto;
-        }
-    }
