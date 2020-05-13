@@ -480,6 +480,15 @@
     width: auto;
 }
     /* mobile */
+    .desktopt  img {
+        height: 80px !important;
+        width: auto;
+        transform: translateY(10px) !important;
+    }
+    .desktopp  img {
+        height: 250px !important;;
+        width: auto;
+    }
     .mobt {
         height: 200px;
         width: auto;
@@ -670,6 +679,15 @@
 
     /* home section */
     /* tablet */
+    .desktopt  img {
+        height: 100px !important;
+        width: auto;
+        transform: translateY(10px) !important;
+    }
+    .desktopp  img {
+        height: 450px !important;;
+        width: auto;
+    }
     .tabtext {
         font-size: 12px;
         justify-content: center;
@@ -710,6 +728,15 @@
 
 @media only screen and (max-width: 992px) {
     /* tablet */
+    .desktopt  img {
+        height: 120px;
+        width: auto;
+        transform: translateY(50px);
+    }
+    .desktopp  img {
+        height: 600px;
+        width: auto;
+    }
     .homepaget {
         height: 75px;
         width: auto;
