@@ -72,6 +72,7 @@
     height: 325px;
     width: auto;
 }
+
 /* site plan */
 .sitepp {
     justify-content: center;
@@ -183,6 +184,46 @@
 }
 
 /* PROTOTYPES */
+/* HOMESECTION */
+ /* desktop */
+ .desktopt  img {
+    height: 150px;
+    width: auto;
+    transform: translateY(50px);
+}
+.desktopp  img {
+    height: 800px;
+    width: auto;
+}
+.dtext {
+    text-align: right;
+}
+
+/* tablet */
+.tabtext {
+    margin-top: 50px;
+   text-align: right;
+}
+.tabt {
+    margin-top: 20px;
+    height: 200px;
+    width: auto;
+    transform: translateX(-100px);
+}
+/* mobile */
+.mobt {
+    height: 200px;
+    width: auto;
+    text-align: right;
+    transform: translateX(300px);
+}
+
+.mockphone {
+    height: 550px;
+    width: auto;
+    text-align: left;
+}
+
 /* aboutsection */
 #aboutusSection {
     justify-content: center;
@@ -339,13 +380,15 @@
     height: 100px;
     width: auto;
 }
+
 /* video */
 .video-section video {
     height: auto;
     width: 75%;
 }
+
 .text-center {
-    text-align: center!important;
+    text-align: center !important;
 }
 
 /* menus */
@@ -391,9 +434,8 @@
 
 /* all media  queries*/
 /* all media queries */
-
- /* Extra small devices (phones, 600px and down) */
- @media only screen and (max-width: 600px) {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
 
     /* For mobile phones: */
     .sitepp {
@@ -418,7 +460,39 @@
         height: 300px;
         width: auto;
     }
-/* vids */
+
+    /* HOMESECTION */
+     /* tablet */
+     .tabtext {
+        font-size: 12px;
+        justify-content: center;
+        display: flex;
+        text-align: center !important;
+    }
+    .mocktablet {
+        height: 250px;
+        width: auto;
+        text-align: center !important;
+    }
+.tabt {
+    margin-top: 10px;
+    height: 1500px;
+    width: auto;
+}
+    /* mobile */
+    .mobt {
+        height: 200px;
+        width: auto;
+        transform: translateX(150px);
+    }
+
+    .mockphone {
+        height: 550px;
+        width: auto;
+        text-align: left;
+        transform: translateX(10px);
+
+    }
 
     .menus {
         display: flex;
@@ -586,20 +660,73 @@
         justify-content: center;
         display: flex;
         margin-right: 20px;
+        text-align: center;
     }
-    
+
     .iconp img {
         height: 200px !important;
         width: auto !important;
     }
 
-.video-section {
-    margin-top: 25px;
-    margin-bottom: 25px;
+    /* home section */
+    /* tablet */
+    .tabtext {
+        font-size: 12px;
+        justify-content: center;
+        display: flex;
+        text-align: center !important;
+    }
+    .mocktablet {
+        height: 500px;
+        width: auto;
+        margin-left: 40px;
+    }
+.tabt {
+    margin-top: 10px;
+    height: 1500px;
+    width: auto;
+    margin-left: 180px;
 }
+    /* moblie */
+    .mobt {
+        height: 200px;
+        width: auto;
+        transform: translateX(150px);
+    }
+
+    .mockphone {
+        height: 550px;
+        width: auto;
+        text-align: left;
+        transform: translateX(-50px);
+
+    }
+
+    .video-section {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
 }
 
 @media only screen and (max-width: 992px) {
+    /* tablet */
+    .homepaget {
+        height: 75px;
+        width: auto;
+    }
+    .tabtext {
+        font-size: 12px;
+    }
+    .mocktablet {
+        height: 500px;
+        width: auto;
+    }
+.tabt {
+    margin-top: 20px;
+    height: 1500px;
+    width: auto;
+    transform: translateX(10px);
+}
     .menus {
         display: flex;
         justify-content: center;
@@ -610,7 +737,6 @@
         width: auto;
     }
 
-@media (max-width: 992px) {
     .sitepp {
         justify-content: center;
         display: flex;
@@ -620,6 +746,14 @@
     .sitepp img {
         height: 450px;
         width: auto;
+    }
+
+    .mockphone {
+        height: 550px;
+        width: auto;
+        text-align: left;
+        transform: translateX(-70px);
+
     }
 }
 
@@ -644,12 +778,18 @@
 
     .iconp img {
         height: 350px;
-        width: auto ;
+        width: auto;
     }
 }
 
 @media only screen and (max-width: 1200px) {
-
+/* tablet */
+.tabt {
+    margin-top: 20px;
+    height: 200px;
+    width: auto;
+    transform: translateX(-10px);
+}
     /* contactfooter */
     #webfoot {
         margin-bottom: 10px;
@@ -675,12 +815,13 @@
         font-size: 20px;
         font-weight: 500;
     }
+
     .iconp {
         justify-content: center;
         display: flex;
         margin-right: 5px;
     }
-    
+
     .iconp img {
         height: 300px;
         width: auto;
@@ -696,6 +837,14 @@
     .greenlogo {
         height: 70px;
         width: auto;
+    }
+
+    /* home */
+    /* mobile */
+    .mobt {
+        height: 200px;
+        width: auto;
+        transform: translateX(140px);
     }
 }
 
