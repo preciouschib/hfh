@@ -72,7 +72,12 @@
     height: 325px;
     width: auto;
 }
-
+#carouselExampleCaptions {
+    color: darkgreen;
+}
+ol.carousel-indicators {
+    color: darkgreen;
+}
 /* site plan */
 .sitepp {
     justify-content: center;
