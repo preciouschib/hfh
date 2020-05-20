@@ -28,8 +28,6 @@
     font-size: 25px;
 }
 
-}
-
 /* intro */
 .col-12 {
     flex: 100%;
@@ -72,12 +70,18 @@
     height: 325px;
     width: auto;
 }
-#carouselExampleCaptions {
-    color: darkgreen;
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: tan !important;
+    border-radius: 10px;
 }
-ol.carousel-indicators {
-    color: darkgreen;
-}
+
 /* site plan */
 .sitepp {
     justify-content: center;
@@ -172,6 +176,7 @@ ol.carousel-indicators {
     text-align: left;
 }
 
+/* ICONS */
 .iconpara {
     text-align: right;
     padding-right: 100px;
@@ -190,16 +195,18 @@ ol.carousel-indicators {
 
 /* PROTOTYPES */
 /* HOMESECTION */
- /* desktop */
- .desktopt  img {
+/* desktop */
+.desktopt img {
     height: 150px;
     width: auto;
     transform: translateY(50px);
 }
-.desktopp  img {
+
+.desktopp img {
     height: 800px;
     width: auto;
 }
+
 .dtext {
     text-align: right;
 }
@@ -207,14 +214,16 @@ ol.carousel-indicators {
 /* tablet */
 .tabtext {
     margin-top: 50px;
-   text-align: right;
+    text-align: right;
 }
+
 .tabt {
     margin-top: 20px;
     height: 200px;
     width: auto;
     transform: translateX(-100px);
 }
+
 /* mobile */
 .mobt {
     height: 200px;
@@ -374,7 +383,7 @@ ol.carousel-indicators {
     font-weight: 500;
 }
 
-/* icons */
+/* actual cons */
 .fab {
     margin-top: 30px;
     font-size: 35px;
@@ -386,7 +395,7 @@ ol.carousel-indicators {
     width: auto;
 }
 
-/* video */
+/* videos */
 .video-section video {
     height: auto;
     width: 75%;
@@ -425,11 +434,15 @@ ol.carousel-indicators {
     font-size: 15px;
 }
 
-#TY {
-    font-size: 15px;
-    color: black;
-    text-align: center;
-    padding: 2px;
+ /* TY */
+ .TY {
+    justify-content: center;
+    display: flex;
+}
+
+.TY img {
+    height: 50px;
+    width: auto;
 }
 
 .btntoTop {
@@ -439,578 +452,667 @@ ol.carousel-indicators {
 
 /* all media  queries*/
 /* all media queries */
+/* all media  queries*/
+/* all media queries */
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 375px) {
 
-    /* For mobile phones: */
-    .sitepp {
-        justify-content: center;
-        display: flex;
-        margin-left: 20px;
-    }
-
-    .sitepp img {
-        height: 250px;
-        width: auto;
-    }
-
-    /* user persona */
-    .userpp {
-        display: flex;
-        justify-content: center;
-        margin-left: 10px;
-    }
-
-    .userpp img {
-        height: 300px;
-        width: auto;
-    }
-
-    /* HOMESECTION */
-     /* tablet */
-     .tabtext {
+    /* tablet */
+    .tabtext {
         font-size: 12px;
         justify-content: center;
         display: flex;
         text-align: center !important;
     }
+
     .mocktablet {
-        height: 250px;
+        height: 200px;
         width: auto;
         text-align: center !important;
     }
-.tabt {
-    margin-top: 10px;
-    height: 1500px;
-    width: auto;
-}
+
+    .tabt {
+        margin-top: 10px;
+        height: 1500px;
+        width: auto;
+    }
+
     /* mobile */
-    .desktopt  img {
+    .desktopt img {
         height: 80px !important;
         width: auto;
         transform: translateY(10px) !important;
     }
-    .desktopp  img {
-        height: 250px !important;;
+
+    .desktopp img {
+        height: 100px !important;
+        ;
         width: auto;
     }
+
     .mobt {
-        height: 200px;
+        height: 150px;
         width: auto;
         transform: translateX(150px);
     }
 
     .mockphone {
-        height: 550px;
+        height: 450px;
         width: auto;
         text-align: left;
         transform: translateX(10px);
 
     }
 
+    /* menus */
     .menus {
         display: flex;
         justify-content: center;
     }
 
     .menus img {
-        height: 450px;
-        width: auto;
-    }
-
-    /* contactfooter */
-    #webfoot {
-        margin-bottom: 10px;
-        margin-right: 5px;
-        margin-left: 5px;
-        padding: 10px;
-    }
-
-    /* footertext */
-    .one {
-        margin-top: 10px;
-        color: darkgreen;
-        font-size: 10px;
-    }
-
-    .two {
-        color: black;
-        font-size: 10px;
-    }
-
-    .three {
-        color: black;
-        font-size: 10px;
-        font-weight: 400;
-    }
-
-    /* icons */
-    .fab {
-        margin-top: 15px;
-        font-size: 20px;
-        color: rgb(63, 44, 22);
-    }
-
-    .greenlogo {
-        height: 50px;
-        width: auto;
-    }
-}
-
-@media (max-width: 768px) {
-    .nonProfitNav {
-        margin: 0;
-        justify-content: center !important;
-    }
-
-    .sitepp {
-        justify-content: center;
-        display: flex;
-        margin-left: 20px;
-    }
-
-    .sitepp img {
-        height: 400px;
-        width: auto;
-    }
-
-    /* user persona */
-    .userpp {
-        display: flex;
-        justify-content: center;
-        margin-left: 10px;
-    }
-
-    .userpp img {
-        height: 400px;
-        width: auto;
-    }
-
-    /* colors and icons */
-    .colors {
-        justify-content: center;
-        display: flex;
-        color: white;
-        font-size: 9px;
-        fon text-align: center;
-        font-display: none !important;
-        margin-top: -10px;
-    }
-
-    #cone {
-        height: 60px;
-        width: 60px;
-        padding: -20px;
-        border-radius: 50%;
-        border-width: 1px;
-        border-color: black;
-        background-color: rgb(175, 175, 174);
-        border-style: solid;
-        text-decoration: white;
-    }
-
-    #ctwo {
-        height: 60px;
-        width: 60px;
-        border-radius: 50%;
-        border-width: 1px;
-        border-color: black;
-        background-color: rgb(84, 60, 23);
-        border-style: solid;
-    }
-
-    #cthree {
-        height: 60px;
-        width: 60px;
-        border-radius: 50%;
-        border-width: 1px;
-        border-color: black;
-        background-color: rgb(33, 73, 44);
-        border-style: solid;
-    }
-
-    #cfour {
-        height: 60px;
-        width: 60px;
-        border-radius: 50%;
-        border-width: 1px;
-        border-color: black;
-        background-color: rgb(63, 44, 22);
-        border-style: solid;
-    }
-
-    #cfive {
-        height: 60px;
-        width: 60px;
-        border-radius: 50%;
-        border-width: 1px;
-        border-color: black;
-        background-color: rgb(112, 112, 112);
-        border-style: solid;
-        margin-right: 15px;
-    }
-
-    .colortext {
-        display: none !important;
-    }
-
-    .colorpp {
-        display: flex;
-        justify-content: center;
-    }
-
-    .colorpp img {
-        height: 70px;
-        width: auto;
-    }
-
-    .iconpara {
-        text-align: left;
-        padding-right: 50px;
-        font-size: 12px;
-    }
-
-    .iconp {
-        justify-content: center;
-        display: flex;
-        margin-right: 20px;
-        text-align: center;
-    }
-
-    .iconp img {
-        height: 200px !important;
-        width: auto !important;
-    }
-
-    /* home section */
-    /* tablet */
-    .desktopt  img {
-        height: 100px !important;
-        width: auto;
-        transform: translateY(10px) !important;
-    }
-    .desktopp  img {
-        height: 450px !important;;
-        width: auto;
-    }
-    .tabtext {
-        font-size: 12px;
-        justify-content: center;
-        display: flex;
-        text-align: center !important;
-    }
-    .mocktablet {
-        height: 500px;
-        width: auto;
-        margin-left: 40px;
-    }
-.tabt {
-    margin-top: 10px;
-    height: 1500px;
-    width: auto;
-    margin-left: 180px;
-}
-    /* moblie */
-    .mobt {
-        height: 200px;
-        width: auto;
-        transform: translateX(150px);
-    }
-
-    .mockphone {
-        height: 550px;
-        width: auto;
-        text-align: left;
-        transform: translateX(-50px);
-
-    }
-
-    .video-section {
-        margin-top: 25px;
-        margin-bottom: 25px;
-    }
-}
-
-@media only screen and (max-width: 992px) {
-    /* tablet */
-    .desktopt  img {
-        height: 120px;
-        width: auto;
-        transform: translateY(50px);
-    }
-    .desktopp  img {
-        height: 600px;
-        width: auto;
-    }
-    .homepaget {
-        height: 75px;
-        width: auto;
-    }
-    .tabtext {
-        font-size: 12px;
-    }
-    .mocktablet {
-        height: 500px;
-        width: auto;
-    }
-.tabt {
-    margin-top: 20px;
-    height: 1500px;
-    width: auto;
-    transform: translateX(10px);
-}
-    .menus {
-        display: flex;
-        justify-content: center;
-    }
-
-    .menus img {
-        height: 550px;
-        width: auto;
-    }
-
-    .sitepp {
-        justify-content: center;
-        display: flex;
-        margin-left: 10px;
-    }
-
-    .sitepp img {
-        height: 450px;
-        width: auto;
-    }
-
-    .mockphone {
-        height: 550px;
-        width: auto;
-        text-align: left;
-        transform: translateX(-70px);
-
-    }
-}
-
-@media only screen and (max-width: 1000px) {
-    .sitepp {
-        justify-content: center;
-        display: flex;
-        margin-left: 20px;
-    }
-
-    .sitepp img {
-        height: 450px;
-        width: auto;
-    }
-
-    /* colors and icons */
-    .iconp {
-        justify-content: center;
-        display: flex;
-        margin-right: 20px;
-    }
-
-    .iconp img {
         height: 350px;
         width: auto;
     }
-}
 
-@media only screen and (max-width: 1200px) {
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+
+        /* For mobile phones: */
+        .sitepp {
+            justify-content: center;
+            display: flex;
+            margin-left: 20px;
+        }
+
+        .sitepp img {
+            height: 250px;
+            width: auto;
+        }
+
+        /* user persona */
+        .userpp {
+            display: flex;
+            justify-content: center;
+            margin-left: 10px;
+        }
+
+        .userpp img {
+            height: 300px;
+            width: auto;
+        }
+
+        /* HOMESECTION */
+        /* tablet */
+        .tabtext {
+            font-size: 12px;
+            justify-content: center;
+            display: flex;
+            text-align: center !important;
+        }
+
+        .mocktablet {
+            height: 250px;
+            width: auto;
+            text-align: center !important;
+        }
+
+        .tabt {
+            margin-top: 10px;
+            height: 1500px;
+            width: auto;
+        }
+
+        /* mobile */
+        .desktopt img {
+            height: 80px !important;
+            width: auto;
+            transform: translateY(10px) !important;
+        }
+
+        .desktopp img {
+            height: 250px !important;
+            ;
+            width: auto;
+        }
+
+        .mobt {
+            height: 200px;
+            width: auto;
+            transform: translateX(150px);
+        }
+
+        .mockphone {
+            height: 550px;
+            width: auto;
+            text-align: left;
+            transform: translateX(10px);
+
+        }
+
+        /* menus */
+        .menus {
+            display: flex;
+            justify-content: center;
+        }
+
+        .menus img {
+            height: 450px;
+            width: auto;
+        }
+
+        /* contactfooter */
+        #webfoot {
+            margin-bottom: 10px;
+            margin-right: 5px;
+            margin-left: 5px;
+            padding: 10px;
+        }
+
+        /* footertext */
+        .one {
+            margin-top: 10px;
+            color: darkgreen;
+            font-size: 10px;
+        }
+
+        .two {
+            color: black;
+            font-size: 10px;
+        }
+
+        .three {
+            color: black;
+            font-size: 10px;
+            font-weight: 400;
+        }
+
+        /* actual icons */
+        .fab {
+            margin-top: 15px;
+            font-size: 20px;
+            color: rgb(63, 44, 22);
+        }
+
+        .greenlogo {
+            height: 50px;
+            width: auto;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .nonProfitNav {
+            margin: 0;
+            justify-content: center !important;
+        }
+
+        .sitepp {
+            justify-content: center;
+            display: flex;
+            margin-left: 20px;
+        }
+
+        .sitepp img {
+            height: 400px;
+            width: auto;
+        }
+
+        /* user persona */
+        .userpp {
+            display: flex;
+            justify-content: center;
+            margin-left: 10px;
+        }
+
+        .userpp img {
+            height: 400px;
+            width: auto;
+        }
+
+        /* colors and icons */
+        .colors {
+            justify-content: center;
+            display: flex;
+            color: white;
+            font-size: 9px;
+            fon text-align: center;
+            font-display: none !important;
+            margin-top: -10px;
+        }
+
+        #cone {
+            height: 60px;
+            width: 60px;
+            padding: -20px;
+            border-radius: 50%;
+            border-width: 1px;
+            border-color: black;
+            background-color: rgb(175, 175, 174);
+            border-style: solid;
+            text-decoration: white;
+        }
+
+        #ctwo {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            border-width: 1px;
+            border-color: black;
+            background-color: rgb(84, 60, 23);
+            border-style: solid;
+        }
+
+        #cthree {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            border-width: 1px;
+            border-color: black;
+            background-color: rgb(33, 73, 44);
+            border-style: solid;
+        }
+
+        #cfour {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            border-width: 1px;
+            border-color: black;
+            background-color: rgb(63, 44, 22);
+            border-style: solid;
+        }
+
+        #cfive {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            border-width: 1px;
+            border-color: black;
+            background-color: rgb(112, 112, 112);
+            border-style: solid;
+            margin-right: 15px;
+        }
+
+        .colortext {
+            display: none !important;
+        }
+
+        .colorpp {
+            display: flex;
+            justify-content: center;
+        }
+
+        .colorpp img {
+            height: 70px;
+            width: auto;
+        }
+
+/* icons */
+        .iconpara {
+            text-align: left;
+            padding-right: 50px;
+            font-size: 12px;
+        }
+
+        .iconp {
+            justify-content: center;
+            display: flex;
+            margin-right: 20px;
+            text-align: center;
+        }
+
+        .iconp img {
+            height: 200px !important;
+            width: auto !important;
+        }
+
+        /* home section */
+        /* tablet */
+        .desktopt img {
+            height: 100px !important;
+            width: auto;
+            transform: translateY(10px) !important;
+        }
+
+        .desktopp img {
+            height: 450px !important;
+            ;
+            width: auto;
+        }
+
+        .tabtext {
+            font-size: 12px;
+            justify-content: center;
+            display: flex;
+            text-align: center !important;
+        }
+
+        .mocktablet {
+            height: 500px;
+            width: auto;
+            margin-left: 40px;
+        }
+
+        .tabt {
+            margin-top: 10px;
+            height: 1500px;
+            width: auto;
+            margin-left: 180px;
+        }
+
+        /* moblie */
+        .mobt {
+            height: 200px;
+            width: auto;
+            transform: translateX(150px);
+        }
+
+        .mockphone {
+            height: 550px;
+            width: auto;
+            text-align: left;
+            transform: translateX(-50px);
+
+        }
+
+        .video-section {
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+    }
+
+    @media only screen and (max-width: 992px) {
+
+        /* desktop */
+        .desktopt img {
+            height: 120px;
+            width: auto;
+            transform: translateY(50px);
+        }
+
+        .desktopp img {
+            height: 600px;
+            width: auto;
+        }
+
+        .homepaget {
+            height: 75px;
+            width: auto;
+        }
+
 /* tablet */
-.tabt {
-    margin-top: 20px;
-    height: 200px;
-    width: auto;
-    transform: translateX(-10px);
-}
-    /* contactfooter */
-    #webfoot {
-        margin-bottom: 10px;
-        margin-right: 10px;
-        margin-left: 10px;
-        padding: 10px;
+        .tabtext {
+            font-size: 12px;
+        }
+
+        .mocktablet {
+            height: 500px;
+            width: auto;
+        }
+
+        .tabt {
+            margin-top: 20px;
+            height: 1500px;
+            width: auto;
+            transform: translateX(10px);
+        }
+
+        /* menus */
+        .menus {
+            display: flex;
+            justify-content: center;
+        }
+
+        .menus img {
+            height: 550px;
+            width: auto;
+        }
+
+        .sitepp {
+            justify-content: center;
+            display: flex;
+            margin-left: 10px;
+        }
+
+        .sitepp img {
+            height: 450px;
+            width: auto;
+        }
+
+        .mockphone {
+            height: 550px;
+            width: auto;
+            text-align: left;
+            transform: translateX(-70px);
+
+        }
     }
 
-    /* footertext */
-    .one {
-        margin-top: 10px;
-        color: darkgreen;
-        font-size: 10px;
+    @media only screen and (max-width: 1000px) {
+        .sitepp {
+            justify-content: center;
+            display: flex;
+            margin-left: 20px;
+        }
+
+        .sitepp img {
+            height: 450px;
+            width: auto;
+        }
+
+        /* colors and icons */
+        .iconp {
+            justify-content: center;
+            display: flex;
+            margin-right: 20px;
+        }
+
+        .iconp img {
+            height: 350px;
+            width: auto;
+        }
     }
 
-    .two {
-        color: black;
-        font-size: 15px;
+    @media only screen and (max-width: 1200px) {
+
+        /* tablet */
+        .tabt {
+            margin-top: 20px;
+            height: 200px;
+            width: auto;
+            transform: translateX(-10px);
+        }
+
+        /* contactfooter */
+        #webfoot {
+            margin-bottom: 10px;
+            margin-right: 10px;
+            margin-left: 10px;
+            padding: 10px;
+        }
+
+        /* footertext */
+        .one {
+            margin-top: 10px;
+            color: darkgreen;
+            font-size: 10px;
+        }
+
+        .two {
+            color: black;
+            font-size: 15px;
+        }
+
+        .three {
+            color: black;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+/* icons */
+        .iconp {
+            justify-content: center;
+            display: flex;
+            margin-right: 5px;
+        }
+
+        .iconp img {
+            height: 300px;
+            width: auto;
+        }
+
+        /* actual icons */
+        .fab {
+            margin-top: 15px;
+            font-size: 20px;
+            color: rgb(63, 44, 22);
+        }
+
+        .greenlogo {
+            height: 70px;
+            width: auto;
+        }
+
+        /* home */
+        /* mobile */
+        .mobt {
+            height: 200px;
+            width: auto;
+            transform: translateX(140px);
+        }
     }
 
-    .three {
-        color: black;
-        font-size: 20px;
-        font-weight: 500;
-    }
+    @media only screen and (max-width: 1300px) {
+        .userpp {
+            width: auto;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+        }
 
-    .iconp {
-        justify-content: center;
-        display: flex;
-        margin-right: 5px;
-    }
+        /* elements */
+        .creditext {
+            padding-left: 10px;
+        }
 
-    .iconp img {
-        height: 300px;
-        width: auto;
-    }
+        /* colors and icons */
+        .iconp {
+            justify-content: center;
+            display: flex;
+            margin-right: 15px;
+        }
 
-    /* icons */
-    .fab {
-        margin-top: 15px;
-        font-size: 20px;
-        color: rgb(63, 44, 22);
-    }
+        .iconp img {
+            height: 400px;
+            width: auto;
+        }
 
-    .greenlogo {
-        height: 70px;
-        width: auto;
-    }
+        /* protoypes */
+        .aboutusp {
+            width: 100%;
+            height: auto;
+            border-width: 1px;
+            display: flex;
+            justify-content: center;
+        }
 
-    /* home */
-    /* mobile */
-    .mobt {
-        height: 200px;
-        width: auto;
-        transform: translateX(140px);
-    }
-}
+        .aboutphoto1 {
+            width: 210px;
+            height: 190px;
+            border: groove;
+            border-color: black;
+            border-width: 2px;
+            padding: 10px
+        }
 
-@media only screen and (max-width: 1300px) {
-    .userpp {
-        width: auto;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-    }
+        .aboutphotos {
+            width: 200px;
+            height: 180px;
+        }
 
-    /* elements */
-    .creditext {
-        padding-left: 10px;
-    }
+        .eventp {
+            width: 100%;
+            height: auto;
+            border-width: 2px;
+            display: flex;
+            justify-content: center;
+        }
 
-    /* colors and icons */
-    .iconp {
-        justify-content: center;
-        display: flex;
-        margin-right: 15px;
-    }
+        .sitepp img {
+            height: 275px;
+            width: auto;
+        }
 
-    .iconp img {
-        height: 400px;
-        width: auto;
-    }
+        .donatep {
+            width: 100%;
+            height: auto;
+            border-width: 2px;
+            display: flex;
+            justify-content: center;
+        }
 
-    /* protoypes */
-    .aboutusp {
-        width: 100%;
-        height: auto;
-        border-width: 1px;
-        display: flex;
-        justify-content: center;
-    }
+        .sponsorp {
+            width: 100%;
+            height: auto;
+            border-width: 2px;
+            display: flex;
+            justify-content: center;
+        }
 
-    .aboutphoto1 {
-        width: 210px;
-        height: 190px;
-        border: groove;
-        border-color: black;
-        border-width: 2px;
-        padding: 10px
-    }
+        .contactp {
+            width: 100%;
+            height: auto;
+            border-width: 2px;
+            display: flex;
+            justify-content: center;
+        }
 
-    .aboutphotos {
-        width: 200px;
-        height: 180px;
-    }
+        /* contactfooter */
+        #webfoot {
+            margin-bottom: 10px;
+            margin-right: 5px;
+            margin-left: 5px;
+            padding: 10px;
+        }
 
-    .eventp {
-        width: 100%;
-        height: auto;
-        border-width: 2px;
-        display: flex;
-        justify-content: center;
-    }
+        /* footertext */
+        .one {
+            margin-top: 10px;
+            color: darkgreen;
+            font-size: 10px;
+        }
 
-    .sitepp img {
-        height: 275px;
-        width: auto;
-    }
+        .two {
+            color: black;
+            font-size: 15px;
+        }
 
-    .donatep {
-        width: 100%;
-        height: auto;
-        border-width: 2px;
-        display: flex;
-        justify-content: center;
-    }
+        .three {
+            color: black;
+            font-size: 20px;
+            font-weight: 500;
+        }
 
-    .sponsorp {
-        width: 100%;
-        height: auto;
-        border-width: 2px;
-        display: flex;
-        justify-content: center;
-    }
+        /* icons */
+        .fab {
+            margin-top: 15px;
+            font-size: 20px;
+            color: rgb(63, 44, 22);
+        }
 
-    .contactp {
-        width: 100%;
-        height: auto;
-        border-width: 2px;
-        display: flex;
-        justify-content: center;
-    }
+        .greenlogo {
+            height: 70px;
+            width: auto;
+        }
 
-    /* contactfooter */
-    #webfoot {
-        margin-bottom: 10px;
-        margin-right: 5px;
-        margin-left: 5px;
-        padding: 10px;
-    }
+        /* elements */
+        .creditext {
+            font-size: 10px;
+        }
 
-    /* footertext */
-    .one {
-        margin-top: 10px;
-        color: darkgreen;
-        font-size: 10px;
+        .ASline {
+            flex: 50%;
+            width: 100%;
+            orientation: landscape;
+        }
     }
-
-    .two {
-        color: black;
-        font-size: 15px;
-    }
-
-    .three {
-        color: black;
-        font-size: 20px;
-        font-weight: 500;
-    }
-
-    /* icons */
-    .fab {
-        margin-top: 15px;
-        font-size: 20px;
-        color: rgb(63, 44, 22);
-    }
-
-    .greenlogo {
-        height: 70px;
-        width: auto;
-    }
-
-    /* elements */
-    .creditext {
-        font-size: 10px;
-    }
-
-    .ASline {
-        flex: 50%;
-        width: 100%;
-        orientation: landscape;
-    }
-}
